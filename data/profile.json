@@ -1,0 +1,23 @@
+{
+    "name": "Anurag Nagare",
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "Available for freelance!",
+    "locales": {
+        "en": {
+            "localized_name": "Anurag Nagare",
+            "localized_name_stylized": "[[Anurag {{Nagare}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "AI & Machine Learning Engineer",
+                "Data Scientist",
+                "Full-Stack AI Developer",
+                "Generative AI Specialist"
+            ],
+            "name_pronunciation_ipa": "/ə.nuː.rɑːɡ nə.gɑː.reɪ/",
+            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+        }
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Projects",
+                "title_short_nav": "Projects",
+                "title_long_prefix": "Explore my",
+                "title_long": "Latest {{Projects}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All Projects",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilities"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilidades"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilitaires"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_apps": "앱",
+                    "category_web": "웹",
+                    "category_utilities": "유틸리티"
+                }
+            },
+            "settings": {
+                "hide_category_filter": true,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_row": 1,
+                "display_as_list_if_width_is_lower_than": 768
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "all",
+                    "img": "/videos/Content.mp4",
+                    "faIcon": "fa-solid fa-play",
+                    "faIconColors": {"bg": "", "fill": "#ffffff"},
+                    "link": {"href": "", "tooltipString": "Play Video"},
+                    "locales": {
+                        "en": {
+                            "title": "ContentStudio AI Pro",
+                            "text": "A multi-agent GenAI platform that creates blog posts, social media content, ad copy, and more in seconds. It features real-time content generation, brand voice training, and analytics dashboards to track SEO and readability scores.",
+                            "tags": ["GenAI", "Content Generation", "NLP"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "all",
+                    "img": "/videos/TextGeni.mp4",
+                    "faIcon": "fa-solid fa-play",
+                    "faIconColors": {"bg": "", "fill": "#ffffff"},
+                    "link": {"href": "", "tooltipString": "Play Video"},
+                    "locales": {
+                        "en": {
+                            "title": "TextGenix Enterprise",
+                            "text": "An AI-powered intelligent document processing system! This platform enhances and transforms documents (PDF, DOCX, TXT, HTML, RTF) with context-aware vocabulary improvements, grammar validation, and industry-specific terminology (legal, medical, financial, technical). It comes with a sleek Gradio-based web interface featuring modern styling, interactive analytics dashboards, and real-time quality metrics like semantic preservation, grammar score, and AI confidence levels.",
+                            "tags": ["AI Document Processing", "NLP", "Gradio", "Enterprise Solution"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "all",
+                    "img": "/videos/Summarizer.mp4",
+                    "faIcon": "fa-solid fa-play",
+                    "faIconColors": {"bg": "", "fill": "#ffffff"},
+                    "link": {"href": "", "tooltipString": "Play Video"},
+                    "locales": {
+                        "en": {
+                            "title": "AI Summarization Platform",
+                            "text": "In just a few seconds, this system can transform long PDFs, Word documents, text files, or even live URLs into succinct, useful summaries. In addition to handling intelligent chunking, citation extraction, entity recognition, and exporting results in PDF, DOCX, Excel, JSON, or XML, it supports a variety of AI models, including GPT-4 Turbo, Claude 3.5, LLaMA 3, local models, and more.",
+                            "tags": ["AI Summarization", "NLP", "Document Processing", "Multi-Model Support"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "all",
+                    "img": "/videos/output.mp4",
+                    "faIcon": "fa-solid fa-play",
+                    "faIconColors": {"bg": "", "fill": "#ffffff"},
+                    "link": {"href": "", "tooltipString": "Play Video"},
+                    "locales": {
+                        "en": {
+                            "title": "Quantum Hardware Noise Simulator & Mitigation Visualizer",
+                            "text": "This interactive platform simulates realistic quantum hardware noise across multiple architectures (IBM Lagos, Google Sycamore, IonQ Aria) and applies advanced error mitigation techniques like Zero-Noise Extrapolation (ZNE) and Probabilistic Error Cancellation (PEC).\n\nThe system provides:\n\n📊 Visual comparison of ideal vs noisy quantum circuits (Bell, GHZ, QFT, Random)\n\n🔍 Hardware-specific error heatmaps and coherence time scaling\n\n🛠️ Customizable noise parameters (gate errors, readout errors, T1/T2 scaling)",
+                            "tags": ["Quantum Computing", "Noise Simulation", "Error Mitigation", "Qiskit"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "all",
+                    "img": "/videos/Wealth wise.mp4",
+                    "faIcon": "fa-solid fa-play",
+                    "faIconColors": {"bg": "", "fill": "#ffffff"},
+                    "link": {"href": "", "tooltipString": "Play Video"},
+                    "locales": {
+                        "en": {
+                            "title": "WealthWise Agent",
+                            "text": "An AI-driven personal finance planning web app that helps individuals manage their money smarter. It applies the 50/30/20 budgeting rule (needs, wants, savings) while allowing customization, supports multiple financial goals, and suggests real-time investment opportunities.\n\nWith a sleek dark-themed Gradio interface, WealthWise Agent not only calculates your budget but also provides step-by-step reasoning, structured JSON output, and interactive charts for better financial visualization.",
+                            "tags": ["Personal Finance", "AI Planning", "Budgeting", "Gradio"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

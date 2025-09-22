@@ -1,0 +1,85 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            },
+            "es": {
+                "title_short": "Contacto",
+                "title_short_nav": "Contacto",
+                "title_long_prefix": "No dudes en",
+                "title_long": "{{Contácta}}me"
+            },
+            "fr": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "N'hésitez pas à",
+                "title_long": "Me {{Contacter}}"
+            },
+            "ko": {
+                "title_short": "연락처",
+                "title_short_nav": "연락처",
+                "title_long_prefix": "주저하지 말고",
+                "title_long": "{{연락}} 주세요"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "anuragnagare77@gmail.com",
+                    "link": {
+                        "href": "https://mail.google.com/mail/?view=cm&fs=1&to=anuragnagare77@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "E-mail"
+                        },
+                        "ko": {
+                            "title": "이메일"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "@anurag-nagare-6977681a0",
+                    "link": {
+                        "href": "https://linkedin.com/in/anurag-nagare-6977681a0",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LinkedIn"
+                        },
+                        "ko": {
+                            "title": "링크드인"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
