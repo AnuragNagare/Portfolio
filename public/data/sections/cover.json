@@ -1,0 +1,196 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Anurag Nagare!}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "India",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "GitHub",
+                    "link": {"href": "https://github.com/AnuragNagare", "tooltipString": "Visit my GitHub"},
+                    "faIcon": "pi pi-github"
+                },
+                {
+                    "id": 3,
+                    "label": "anuragnagare77@gmail.com",
+                    "link": {"href": "mailto:anuragnagare77@gmail.com", "tooltipString": "Send email"},
+                    "faIcon": "pi pi-envelope"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m an {{AI & Machine Learning}} engineer with expertise in developing intelligent systems across NLP, Computer Vision, and Data Science. With hands-on experience in Python, PyTorch, TensorFlow, and full-stack AI web applications, I specialize in building scalable solutions that drive business impact.</p><p>From predictive modeling and generative AI to end-to-end web deployment, I help businesses transform ideas into powerful, production-ready solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Anita Bath",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[SalesForce]]",
+                            "text": "Working with Anurag was a truly [[transformative experience]]. His outstanding programming skills and collaborative spirit not only elevated the quality of our project but also brought a renewed sense of motivation and purpose to us."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Lou Natic",
+                    "link": {"href": "https://github.com/AnuragNagare", "tooltipString": "see_on_github"},
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Lead Developer at [[GitHub]]",
+                            "text": "Having Anurag on our team was an invaluable asset. His [[deep programming insights and mentorship]] not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Paige Turner",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Managing Director at [[Dingga]]",
+                            "text": "Collaborating with Anurag  was a true [[game changer]] for our entire development process. His [[deep technical expertise]], creative problem-solving, and proactive mindset were absolutely invaluable."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Chris P. Bacon",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "Anurag Nagare's [[attention to detail]] and his [[innovative thinking]] brought a fresh perspective to our whole design process! Simply amazing!"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Services {{I offer}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-brain",
+                    "locales": {
+                        "en": {"title": "AI & {{Machine Learning}} Solutions", "text": "Designing and deploying predictive models, deep learning systems, and intelligent automation for business needs."}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-comments",
+                    "locales": {
+                        "en": {"title": "Natural Language Processing (NLP) & {{LLMs}}", "text": "Building chatbots, text analysis tools, and generative AI applications powered by advanced language models."}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-eye",
+                    "locales": {
+                        "en": {"title": "Computer {{Vision}} Applications", "text": "Developing object detection, image classification, and face recognition systems using CNNs, YOLO, and InsightFace."}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "locales": {
+                        "en": {"title": "Data Science & {{Analytics}}", "text": "Data cleaning, preprocessing, visualization, and extracting actionable insights with Python, Pandas, NumPy, and PySpark."}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "locales": {
+                        "en": {"title": "Full-Stack AI {{Web Applications}}", "text": "Creating end-to-end AI-powered web apps using Flask, Django, and Streamlit with seamless front-end and back-end integration."}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-handshake",
+                    "locales": {
+                        "en": {"title": "AI Consulting & {{Custom Projects}}", "text": "Providing tailored AI/ML strategies, prototyping, and freelance solutions for startups and enterprises."}
+                    }
+                }
+            ]
+        }
+    ]
+}

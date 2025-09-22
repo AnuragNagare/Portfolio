@@ -1,0 +1,93 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "#6c5ce7", "fill": "#EEE"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": { "title": "Artificial Intelligence – {{IBM}}", "text": "" }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "#0984e3", "fill": "#EEE"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": { "title": "{{Agile}} Project Management", "text": "" }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "#2d3436", "fill": "#FFD43B"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": { "title": "Python for Data Science, AI & {{Development}}", "text": "" }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-wand-magic-sparkles",
+                    "faIconColors": {"bg": "#00cec9", "fill": "#111"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": { "title": "Generative AI with Large {{Language Models}}", "text": "" }
+                    }
+                }
+            ]
+        }
+    ]
+}
